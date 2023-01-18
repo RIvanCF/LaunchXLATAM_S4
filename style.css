@@ -1,0 +1,35 @@
+/*Configuración General*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #1c1c1c;
+    padding: 130px 200px 0px;
+}
+/*Configuración del header*/
+header{
+     background-color: red;
+     height: 180px;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     left: 0;
+     border-radius: 0px 0px 40px 40px;
+}
+/*Configurar contenido del header*/
+.titulo{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+.titulo h1{
+    color: white;
+    margin-top: 4px;
+}
+.titulo img{
+    align-items: center;
+    margin-left: 40px;
+    height: 40px;
+}
