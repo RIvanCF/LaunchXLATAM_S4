@@ -11,7 +11,7 @@ body{
 /*Configuración del header*/
 header{
      background-color: red;
-     height: 180px;
+     height: 200px;
      position: fixed;
      width: 100%;
      top: 0;
@@ -32,4 +32,52 @@ header{
     align-items: center;
     margin-left: 40px;
     height: 40px;
+}
+/*Configuracion de la barra de busqueda*/
+.search{
+    justify-content: center;
+    display: flex;
+    padding: 20px; 
+}
+/*Configuracion del contenido de la barra de busqueda*/
+.search input{
+    width: 0px; 
+    background-color: red;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    color: black;
+    outline: none;
+    border: 3px solid red;
+    transition: all 0.6s ease;
+}
+/*Configuracion del Boton*/
+.search .btn{
+    background-color: #8b0a0a;
+    top: 0;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.search img{
+    width: 100%;
+    padding: 10px;
+}
+/*Animacion del boton*/
+.search:hover input{
+    width: 300px;
+    background-color: white;
+    border: 3px solid white;
+}
+.search input:focus{
+    width: 300px;
+    background-color: white;
+    border: 3px solid white;
 }

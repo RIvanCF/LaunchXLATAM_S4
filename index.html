@@ -5,16 +5,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1">
         <link rel="stylesheet" href="style.css">
+        <script src="index.js" type="text/javascript" defer></script>
         <title>Pokedex</title>
     </head>
 <body>
     <!--Encabezado de la página-->
     <header>
+        <!--Titulo-->
         <div class="titulo">
             <h1>POKEDEX</h1>
             <img src="./images/pokebola32.png" alt="pokelogo">
         </div>
+        <!--Busqueda por ID o nombre-->
+        <div class="search">
+            <form action="" onsubmit="searchPokemon(event)">
+                <input type="text" placeholder="Buscar Pokemon" name="pokemon" autocomplete="off">
+            </form>
+            <div class="btn">
+                <img src="./images/search.png" alt="Pokebtn">
+            </div>
+        </div>
     </header> 
-    <script src="index.js"></script>  
 </body>
 </html> 
