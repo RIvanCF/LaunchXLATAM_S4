@@ -81,3 +81,21 @@ header{
     background-color: white;
     border: 3px solid white;
 }
+/*/////////Configuración de la lista regional de la pokedex/////////*/
+main{
+    /*background-color: white;*/
+    margin-top: 120px;   
+}
+main .regiones{
+    background-color: #8b0a0a;
+    width: 25%;
+    color: white;
+    border-radius: 50px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.regiones h1{
+    font-size: 25px
+}
