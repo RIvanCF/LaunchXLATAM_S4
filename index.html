@@ -27,22 +27,21 @@
     </header> 
     <!--Contenido y lista de Pokemones por región-->
     <main>
-        <div id="regiones">
-            <div class="region-todos" id="listaregion">
-                <ul class="region">
-                    <li class="item"><button class="btn btn-init" id="ver todos">Ver todos</button></li>
-                    <li class="item"><button class="btn btn-init kanto" id="kanto">Kanto</button></li>
-                    <li class="item"><button class="btn btn-init johto" id="johto">Johto</button></li>
-                    <li class="item"><button class="btn btn-init hoenn" id="hoenn">Hoenn</button></li>
-                    <li class="item"><button class="btn btn-init sinnoh" id="sinnoh">Sinnoh</button></li>
-                    <li class="item"><button class="btn btn-init unova" id="unova">Unova</button></li>
-                    <li class="item"><button class="btn btn-init kalos" id="kalos">Kalos</button></li>
-                    <li class="item"><button class="btn btn-init alola" id="alola">Alola</button></li>
-                    <li class="item"><button class="btn btn-init galar" id="galar">Galar</button></li>
-                    <li class="item"><button class="btn btn-init hisui" id="hisui">Hisui</button></li>
-                    <li class="item"><button class="btn btn-init paldea" id="paldea">Paldea</button></li>   
-                </ul>
-            </div>
+        <div class="regiones">
+            <label for="region">Región</label>
+            <select name="region" id="region">
+                <option value="Todos">Todas</option>
+                <option value="">Kanto</option>
+                <option value="">Johto</option>
+                <option value="">Hoenn</option>
+                <option value="">Sinnoh</option>
+                <option value="">Unova</option>
+                <option value="">Kalos</option>
+                <option value="">Alola</option>
+                <option value="">Galar</option>
+                <option value="">Hisui</option>
+                <option value="">Paldea</option>
+            </select>
         </div>
     </main>
     <script src="index.js"></script>    

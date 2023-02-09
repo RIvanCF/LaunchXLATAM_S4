@@ -6,7 +6,7 @@
 body{
     font-family: sans-serif;
     background-color: #1c1c1c;
-    padding: 130px 200px 0px;
+    padding: 130px 200px 200px 0;
 }
 /*Configuración del header*/
 header{
@@ -84,5 +84,29 @@ header{
 /*/////////Configuración de la lista regional de la pokedex/////////*/
 main{
     /*background-color: white;*/
-    margin-top: 120px;   
+    margin-top: 120px; 
 }
+.regiones{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.regiones label{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.regiones select{
+    background-color:  #3b3b3b ;
+    margin-left: 20px;
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: 2px solid gray;
+}
+
