@@ -25,23 +25,48 @@
             </div>
         </div>
     </header> 
-    <!--Contenido y lista de Pokemones por región-->
+    <!--Regiones-->
+    <div class="regiones">
+        <label for="region">Región</label>
+        <select name="region" id="region">
+            <option value="todos">Todas</option>
+            <option value="kanto">Kanto</option>
+            <option value="johto">Johto</option>
+            <option value="hoenn">Hoenn</option>
+            <option value="sinnoh">Sinnoh</option>
+            <option value="unova">Unova</option>
+            <option value="kalos">Kalos</option>
+            <option value="alola">Alola</option>
+            <option value="galar">Galar</option>
+            <option value="hisui">Hisui</option>
+            <option value="paldea">Paldea</option>
+        </select>
+    </div>
+    <!--Lista de pokemones-->
     <main>
-        <div class="regiones">
-            <label for="region">Región</label>
-            <select name="region" id="region">
-                <option value="todos">Todas</option>
-                <option value="kanto">Kanto</option>
-                <option value="johto">Johto</option>
-                <option value="hoenn">Hoenn</option>
-                <option value="sinnoh">Sinnoh</option>
-                <option value="unova">Unova</option>
-                <option value="kalos">Kalos</option>
-                <option value="alola">Alola</option>
-                <option value="galar">Galar</option>
-                <option value="hisui">Hisui</option>
-                <option value="paldea">Paldea</option>
-            </select>
+        <div id="todos">
+            <div class="allpokemon" id="listapokemon">
+                <div class="pokemon">
+                    <p class="numberback">#25</p>
+                    <div class="pokeimg">
+                        <img src="./images/pikachu.png" alt="pikachu">
+                    </div>
+                    <div class="pokeinfo">
+                        <div class="pokename">
+                            <p class="id">#25</p>
+                            <h2 class="pokename">Pikachu</h2>
+                        </div>
+                        <div class="tipo">
+                            <p>Electrico</p>
+                            <p>Luchador</p>
+                        </div>
+                        <div class="stats">
+                            <p class="stat">40cm</p>
+                            <p class="stat">30kg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <script src="index.js"></script>    
